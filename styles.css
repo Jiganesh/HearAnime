@@ -10,7 +10,6 @@
     justify-content:flex-start;
     background-color: rgb(240, 240, 240);
     flex-direction: column;
-    padding-bottom:20px;
     min-height: 75vh;
 
 
@@ -21,7 +20,7 @@
     justify-content:space-around;
     flex-wrap:wrap;
     flex-direction: row;
-    padding-bottom:10px;
+    padding-bottom:20px;
 
 }
 header{
@@ -63,8 +62,21 @@ header{
     background-color: white;
     border-radius: 5px;
     font-weight: bold;
+    text-align: center;
     padding: 2px;
     margin: 5px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding:10px
+}
+
+#footer p{
+    color: white;
+    margin-right:10px;
 }
 
 @media screen and (max-width:800){
